@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive christmas website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom javascript link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    
+    <!-- header section starts  -->
+    
+    <header class="header">
+    
+        <a href="#" class="logo"> <i class="fas fa-gifts"></i> giftShope </a>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#shop">shop</a>
+            <a href="#gallery">gallery</a>
+            <a href="#message">message</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- home section starts  -->
+    
+    <section class="home" id="home">
+    
+        <div class="slide active" style="background:url(images/home-bg-1.png) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>merry christmas</span>
+                <h3>upto 60% off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    
+        <div class="slide" style="background:url(images/home-bg-2.png) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>ho-ho-ho</span>
+                <h3>happy holiday</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    
+        <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    
+    </section>
+    
+    <!-- home section ends -->
+    
+    <!-- category section starts  -->
+    
+    <section class="category">
+    
+        <div class="box-container">
+    
+            <a href="#" class="box">
+                <img src="images/category-1.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+            <a href="#" class="box">
+                <img src="images/category-2.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+            <a href="#" class="box">
+                <img src="images/category-3.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+            <a href="#" class="box">
+                <img src="images/category-4.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+            <a href="#" class="box">
+                <img src="images/category-5.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+            <a href="#" class="box">
+                <img src="images/category-6.png" alt="">
+                <h3>christmas decorations</h3>
+            </a>
+    
+        </div>
+    
+    </section>
+    
+    <!-- category section ends -->
+    
+    <!-- about section starts  -->
+    
+    <section class="about" id="about">
+    
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+    
+        <div class="content">
+            <div class="box">
+                <h3>what is christmas?</h3>
+                <p>Christmas is the celebration of God's ultimate gift: the birth of Jesus, the Christ child.
+                    It is a time of God showing His great love for us. It can be a time of healing and renewed strength. 
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+            </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-tree"></i>
+                    <p>christmas trees</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-cookie"></i>
+                    <p>christmas cookies</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-gifts"></i>
+                    <p>christmas gifts</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!-- about section ends -->
+    
+    <!-- shop section starts  -->
+    
+    <section class="shop" id="shop">
+    
+        <h1 class="heading">our shop</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>showcase models</h3>
+                    <div class="price"> Rs. 255/- <span>Rs. 288/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>christmas lights</h3>
+                    <div class="price"> Rs. 178/- <span>Rs. 199/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>christmas dolls</h3>
+                    <div class="price"> Rs. 289/- <span>Rs. 299/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>christmas tree decore</h3>
+                    <div class="price"> Rs. 56/- <span>Rs. 64/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>christmas toys</h3>
+                    <div class="price"> Rs. 358/- <span>Rs. 433/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-6.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>christmas clothes</h3>
+                    <div class="price"> Rs. 378/- <span>Rs. 422/-</span> </div>
+                    <a href="#" class="btn">add to list</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- shop section ends -->
+    
+    <!-- banner section starts  -->
+    
+    <section class="banner">
+    
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <p>Gifts of time and love are surely the basic ingredients of a truly merry Christmas.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    
+    </section>
+    
+    <!-- banner section ends -->
+    
+    <!-- gallery section starts  -->
+    
+    <section class="gallery" id="gallery">
+    
+        <h1 class="heading"> our gallery </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/gallery-img-1.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>The best of all gifts around any Christmas tree: the presence of a happy family all wrapped up in each other.</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/gallery-img-2.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>Let us keep Christmas beautiful without a thought of greed.</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/gallery-img-3.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>Nothing’s as mean as giving a little child something useful for Christmas</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/gallery-img-4.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>Gifts of time and love are surely the basic ingredients of a truly merry Christmas.</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/gallery-img-5.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>Christmas gives us the opportunity to pause and reflect on the important things around us.</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="images/gallery-img-6.jpg" alt="">
+                <div class="content">
+                    <h3>merry christmas</h3>
+                    <p>Christmas is not as much about opening our presents as opening our hearts.</p>
+                    <a href="https://en.wikipedia.org/wiki/Christmas#:~:text=Christmas%20is%20an%20annual%20festival,of%20people%20around%20the%20world." target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- gallery section ends -->
+    
+    <!-- message sections starts  -->
+    
+    <section class="message" id="message">
+    
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="full name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="phone" class="box">
+            <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    
+    </section>
+    
+    <!-- message section ends -->
+    
+    <!-- blogs section starts  -->
+    
+    <section class="blogs" id="blogs">
+    
+        <h1 class="heading">our daily blogs</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="date">
+                        <h3>11</h3>
+                        <span>nov</span>
+                    </div>
+                    <a href="#" class="user"> <i class="fas fa-user"></i> by admin </a>
+                    <a href="https://www.thelightsofchristmas.com/making-your-holiday-outing-a-whole-day-event/" class="title"> Making Your Holiday Outing a Whole Day Event! </a>
+                    <p>It’s time to start planning your outing to The Lights of Christmas! The event may open at night, but there is so much to do within the community around The Lights of Christmas!</p>
+                    <a href="https://www.thelightsofchristmas.com/" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="date">
+                        <h3>26</h3>
+                        <span>jan</span>
+                    </div>
+                    <a href="#" class="user"> <i class="fas fa-user"></i> by Kayla Castiglione
+                    </a>
+                    <a href="https://www.thelightsofchristmas.com/an-amazing-season-in-2021/" class="title"> An Amazing Season in 2021</a>
+                    <p>The Lights of Christmas team is so thankful for the good weather most of the season. The days we needed to adjust because of weather went smoothly and the staff rocked at making the adjustments.</p>
+                    <a href="https://www.thelightsofchristmas.com/" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="date">
+                        <h3>03</h3>
+                        <span>oct</span>
+                    </div>
+                    <a href="#" class="user"> <i class="fas fa-user"></i> by Jessica Saxer </a>
+                    <a href="https://www.thelightsofchristmas.com/a-christmas-to-remember/" class="title"> A Christmas to Remember </a>
+                    <p>We are so overjoyed to have the opportunity to share in the joy of the holidays as we lavishly celebrate Christmas</p>
+                    <a href="https://www.thelightsofchristmas.com/" class="btn">read more</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- blogs section ends -->
+    
+    <!-- services section starts  -->
+    
+    <section class="service">
+    
+        <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>free delivery</h3>
+            <p>Free delivery of the products listed by you!</p>
+        </div>
+    
+        <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>secure payments</h3>
+            <p>Payments are secured with our payment gateway!</p>
+        </div>
+    
+        <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>24/7 support</h3>
+            <p>24/7 customer service and support provided by us</p>
+        </div>
+    
+    </section>
+    
+    <!-- services section ends -->
+    
+    <!-- footer section starts  -->
+    
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+                <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+                <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> shop</a>
+                <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+                <a class="link" href="#message"> <i class="fas fa-angle-right"></i> message</a>
+                <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my favorite </a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my order </a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> private policy </a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a class="link" href="#"> <i class="fas fa-phone"></i> +91 7782986679 </a>
+                <a class="link" href="#"> <i class="fas fa-phone"></i> +91 8562892680 </a>
+                <a class="link" href="#"> <i class="fas fa-envelope"></i> gifts@gmail.com </a>
+                <a class="link" href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> created by <span>Team JUET(3rd Year)</span> | all rights reserved! </div>
+    
+    </section>
+    
+    <!-- footer section ends -->
+    
+    </body>
+    </html>
